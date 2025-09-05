@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE Department - Home</title>
+  <link rel="stylesheet" href="css/home.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+    <!-- Welcome Overlay -->
+  <div id="welcome-overlay">
+    <h1>Welcome to the CSE Department Website</h1>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="CSE Logo">
+      <h1>Department of Computer Science & Engineering</h1>
+    </div>
+    <nav>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="infrastructure.html">Infrastructure</a></li>
+        <li><a href="research.html">Research</a></li>
+
+        <!-- Student Corner with dropdown -->
+        <li class="dropdown">
+          <a href="student.html">Student Corner ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="event.html">Event</a></li>
+            <li><a href="club.html">Club</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  
+      <!-- Hover Expansion Menu -->
+      <div class="expansion-menu">
+        <a href="workshop.html">Workshop</a>
+        <a href="placement.html">Placement</a>
+        <a href="alumni.html">Alumni</a>
+      </div>
+    </nav>
+  
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="images/banner.jpg" alt="CSE Banner">
+  </section>
+
+  <!-- Vision & Mission -->
+ <section class="vision-mission">
+  <div class="vision">
+    <h2>Vision</h2>
+    <p>To emerge as a world class technology department through education, innovation and collaborative research.</p>
+  </div>
+
+  <div class="mission">
+    <h2>Mission</h2>
+    <ul>
+      <li>To impart quality education to students.</li>
+      <li>To create and disseminate knowledge for the betterment of mankind.</li>
+      <li>To establish a center of excellence in collaboration with industries, research laboratories and other agencies to meet the changing needs of society.</li>
+      <li>To provide individual attention and enable character building.</li>
+      <li>To encourage entrepreneurship skills among students.</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Highlights -->
+<section class="highlights">
+  <h2>Department Highlights</h2>
+  <ul class="highlight-list">
+    <li>Dedicated and highly qualified faculty members who inculcate both theoretical knowledge and practical skills to the students in a balanced manner.</li>
+    <li>Moodle Learning Management System (LMS) which hosts individual course pages comprising the syllabus, lesson plan, lecture notes and reading materials. The pedagogy used is primarily learner centric.</li>
+    <li>Periodical guest lectures by illustrious academics from well-known universities or seasoned experts from several prestigious companies.</li>
+    <li>Several workshops on emerging technologies for the benefit of students to supplement their curriculum. This facilitates our students to enrich their knowledge and also be up to date on current industry trends.</li>
+    <li>Active student chapters of professional societies such as ACM, CSI and IEEE as well as a CodeChef campus chapter which regularly conduct coding competitions and sessions on open-source software development.</li>
+    <li>Short Term Training Programs (STTP), Faculty Development Programs (FDP) and National Seminars sponsored by AICTE, Anna University and ACM Education Committee.</li>
+    <li>Yearly, international conferences and national conferences to get deeper insights in the recent areas of research.</li>
+    <li>Almost all faculty members are recognized Ph.D. supervisors for pursuing research in Anna University, Chennai.</li>
+    <li>At present, twenty two part time research scholars and ten full time research scholars are pursuing their Ph.Ds.</li>
+    <li>Ten patents have been filed by the faculty members of the Department, out of which four have been published in the Indian Patent Journal.</li>
+    <li>External funded projects from various funding agencies such as DST, AICTE, Tamil Virtual academy, CSI, Chellammal Agro Agency, Nvidia, BIRAC and ISRO have been completed.</li>
+    <li>MoUs with Caterpillar Ltd., Manatec Electronics Private Limited, Pondicherry, Vimana Technologies Pvt. Ltd (Group Company of Aspec Scire Inc), Bangalore, Intellect Design Arena, Sigaram Technologies, ACI Automation facilitates the students to pursue summer/winter internships and faculty to engage in collaborative consultancy research projects.</li>
+    <li>Every year, around 50 students from the department pursue summer internships at prestigious companies including Google, Amazon, SAP Labs, Microsoft, to name a few.</li>
+    <li>Outreach program on “Bringing Computational Thinking to Schools” was organized jointly with Institute of Mathematical Sciences (IMSc), Chennai Mathematical Institute (CMI) and ACM CSpathshala. Teachers from schools of different boards (State, CBSE, ICSE, IGCSE) participated.</li>
+    <li>An intensive training Program on the “Basics of Cyber Crime Investigation for the Sub-Inspectors of Police”, Cyber Crime Wing, Tamil Nadu was organised for 183 Sub-Inspectors in three batches during 25–29 January 2020, 3–8 February 2020 and 24–29 February 2020.</li>
+  </ul>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CSE Department. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+    <!-- Chatbot Floating Button -->
+  <div id="chatbot">
+    <button id="chatbot-btn">
+      💬
+    </button>
+    <div id="chatbot-window">
+      <div class="chat-header">
+        <h3>Virtual Assistant</h3>
+        <button id="close-chat">✖</button>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="bot-msg">Hello! 👋 I’m your CSE Dept Assistant. Ask me anything!</div>
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Type your question..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
